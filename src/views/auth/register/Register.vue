@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row contentCenter">
             <div class="col-md-6">
-                <img src="../../../assets/login.gif" class="img-fluid" alt="image">
+                <img src="../../../assets/register.gif" class="img-fluid" alt="image">
             </div>
             <div class="col-md-6">
                 <form>
@@ -26,7 +26,7 @@
                     <div class="mb-3">
                         <RouterLink to="/">Have Account?</RouterLink>
                     </div>
-                    <button type="submit" class="btn btn-primary container">Login</button>
+                    <button type="submit" class="btn btn-primary container">Register</button>
                 </form>
             </div>
         </div>

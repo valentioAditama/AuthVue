@@ -10,6 +10,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="container">
         <div class="row contentCenter">
         <div class="col-md-6">
+            <img src="../../../assets/login.gif" class="img-fluid" alt="image">
+        </div>
+        <div class="col-md-6">
             <form>
                 <div class="mb-3">
                     <h3>Welcome</h3>
@@ -26,9 +29,6 @@ import { RouterLink, RouterView } from 'vue-router'
                 </div>
                 <button type="submit" class="btn btn-primary container">Login</button>
             </form>
-        </div>
-        <div class="col-md-6">
-            <img src="../../../assets/login.gif" class="img-fluid" alt="image">
         </div>
     </div>
     </div>
