@@ -210,10 +210,257 @@
                     </div>
                   </div>
                 </div>
+                <div class="mt-5">
+                  <div
+                    class="row d-flex justify-content-center align-items-center"
+                  >
+                    <div class="col-md-12">
+                      <h5 class="textGreen">BackUp Services</h5>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="mt-4">
+                    <div
+                      class="row d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-md-2 text-center">
+                        <i class="fa-solid fa-cloud fa-2xl"></i>
+                      </div>
+                      <div class="col-md-9">
+                        <h5 class="textGreen">Cloud BackUp Service Veem</h5>
+                        <small
+                          >Object Storage Service (OSS) is an encrypted object
+                          storage service</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mt-4 mb-5">
+                    <div
+                      class="row d-flex justify-content-center align-items-center"
+                    >
+                      <div class="col-md-2 text-center">
+                        <i class="fa-solid fa-cloud fa-2xl"></i>
+                      </div>
+                      <div class="col-md-9">
+                        <h5 class="textGreen">Cloud BackUp HBR</h5>
+                        <small
+                          >Object Storage Service (OSS) is an encrypted object
+                          storage service</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="navbarColor mt-5 text-light">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-2 mb-3">
+                  <h5>About</h5>
+                  <ul class="nav flex-column mt-4">
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">About FLOU Cloud</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Pricing Model</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Product</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Solutions</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Customer</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Partners</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Latest Update</small></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                  <h5>Promotion</h5>
+                  <ul class="nav flex-column mt-4">
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Free Trial</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Refer a friend</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Starter Package</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Web Hosting</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Affiliate Program</small></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                  <h5>Explore</h5>
+                  <ul class="nav flex-column mt-4">
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Indonesia Gateway</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Getting Started</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Blog</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Marketplace</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Availability Zone</small></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                  <h5>Support</h5>
+                  <ul class="nav flex-column mt-4">
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Contact Sales</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light"
+                          >Affter-Sales Support</small
+                        ></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Pricing Calculator</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">FAQs</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">About</small></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                  <h5>Resource</h5>
+                  <ul class="nav flex-column mt-4">
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Document Centre</small></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light"
+                          >Security & Compliance</small
+                        ></a
+                      >
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a href="#" class="nav-link p-0 text-muted"
+                        ><small class="text-light">Press Room</small></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <button class="btn greenColor text-light container">
+                Sign In Console
+              </button>
+              <div class="mt-3 text-center mt-4">
+                <h5>Our Social Media</h5>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter" /></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram" /></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook" /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </div>
   </main>
