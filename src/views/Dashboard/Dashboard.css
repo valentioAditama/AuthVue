@@ -1,39 +1,44 @@
 * {
+  /* border: 1px solid black; */
 }
 
-.navbarColor{
-    background-color: #374e73;
+.navbarColor {
+  background-color: #374e73;
 }
 
-.greenColor{
-    background-color: #2ebe33; /* Green */
+.greenColor {
+  background-color: #2ebe33; /* Green */
 }
 
-.greenColor:hover{
-    background-color: #268829; /* Green */
+.greenColor:hover {
+  background-color: #268829; /* Green */
+}
+
+.textGreen {
+  color: #268829;
 }
 
 .btnContact {
-    background-color: #2ebe33; /* Green */
-    border: none;
-    border-radius: 20px;
-    color: white;
-    padding: 2px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    width: 130px;
-    height: 30px;
+  background-color: #2ebe33; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 2px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 130px;
+  height: 30px;
 }
 
-.background{
-    background-image: url('../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg');
-    background-size: cover;
-    height: 70vh;
-    background-position-y: -200px;
+.background {
+  background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+  background-size: cover;
+  height: 70vh;
+  background-position-y: -200px;
 }
 
-.textBackground{
-    height: 70vh;
+.textBackground {
+  height: 70vh;
 }
