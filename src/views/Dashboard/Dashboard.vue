@@ -189,9 +189,21 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col-md-4 text-dark">
-          <div class="mt-4">Floud Cloud Products</div>
+          <div class="mt-4">
+            <h4 class="textGreen">Flou Cloud Products</h4>
+          </div>
+          <div class="mt-4">
+            <div class="boxChoose">
+              <li class="active"><a href="" class="text-decoration-none text-success">Infrastructure as a Service</a></li>
+              <li><a href="" class="text-decoration-none text-dark">Software as a Service</a></li>
+              <li><a href="" class="text-decoration-none text-dark">Platform as a Service</a></li>
+              <li><a href="" class="text-decoration-none text-dark">Hybrid Multicloud</a></li>
+              <li><a href="" class="text-decoration-none text-dark">Services</a></li>
+              <li><a href="" class="text-decoration-none text-dark">Private Cloud</a></li>
+            </div>
+          </div>
         </div>
-        <div class="col-md-8 text-dark">
+        <div class="col-md-8 text-dark mt-4">
           <div class="mt-4">
             <div class="input-group mb-3">
               <input
@@ -218,7 +230,7 @@
               </a>
               <small>
                 Helping to accelerate the business through strong and resilient
-                infrastructure for unlimited customer experience.
+                infrastructure for unlimited customer <br>experience.
               </small>
             </div>
             <div class="row mt-5 justify-content-between">

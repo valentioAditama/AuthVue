@@ -55,3 +55,22 @@
   height: 60px;
   width: 60px;
 }
+
+.boxChoose {
+  list-style-type: none;
+}
+
+.boxChoose > li {
+  border-left: 3px solid rgb(158, 153, 153);
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.boxChoose > .active{
+  border-left: 3px solid #10d417;
+  padding-left: 10px;
+}
+
+li > .active {
+  color: #268829;
+}
