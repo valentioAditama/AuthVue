@@ -26,15 +26,16 @@
             <button class="btn btn-light rounded-circle">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-            <button class="btn rounded-pill text-light greenColor m-2">
+            <button class="btn rounded-pill text-light greenColor m-2" style="background-color: #374e73; border: 1px solid white; width: 170px;">
               <i class="fa-regular fa-envelope"></i>
               Contact Us
             </button>
-            <button class="btn rounded-pill text-light greenColor m-2">
-              <i class="fa-regular fa-envelope"></i>
-              Contact Us
+            <button class="btn rounded-pill text-light greenColor m-2" style="background-color: #374e73; border: 1px solid white; width: 170px;">
+              
+              English
+              <i class="fa-solid fa-caret-down"></i>
             </button>
-            <button class="btn greenColor text-light m-2">Login</button>
+            <button class="btn rounded-pill greenColor text-light m-2">Login</button>
           </div>
         </div>
       </div>
