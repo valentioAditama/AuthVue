@@ -18,16 +18,143 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-          <img src="logo" alt="" srcset="" />
+          <i class="fa-solid fa-cloud fa-2xl text-light"></i>
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
           <div class="d-block">
+            <button class="btn btn-light rounded-circle">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
             <button class="btn rounded-pill text-light greenColor m-2">
+              <i class="fa-regular fa-envelope"></i>
+              Contact Us
+            </button>
+            <button class="btn rounded-pill text-light greenColor m-2">
+              <i class="fa-regular fa-envelope"></i>
               Contact Us
             </button>
             <button class="btn greenColor text-light m-2">Login</button>
           </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbarColor mt-1">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown" style="margin-right: 20px">
+              <a
+                class="nav-link dropdown-toggle textGreenNav"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Why FLOU
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" style="margin-right: 20px">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" style="margin-right: 20px">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Solution
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" style="margin-right: 20px">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Patners
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" style="margin-right: 20px">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pricing
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <div class="navbar-nav">
+              <a
+                class="nav-link text-light"
+                style="margin-right: 20px"
+                aria-current="page"
+                href="#"
+                >Resources</a
+              >
+              <a class="nav-link text-light" style="margin-right: 20px" href="#"
+                >Support</a
+              >
+              <a class="nav-link text-light" style="margin-right: 20px" href="#"
+                >MarketPlace</a
+              >
+            </div>
+          </ul>
         </div>
       </div>
     </nav>
@@ -79,7 +206,7 @@
                 type="button"
                 id="button-addon2"
               >
-                Search
+                <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
             <hr />
@@ -431,34 +558,30 @@
               </button>
               <div class="mt-3 text-center mt-4">
                 <h5>Our Social Media</h5>
+                <div class="row mt-3">
+                  <div class="col-md-3">
+                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                      <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-3">
+                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                      <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-3">
+                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                      <i class="fa-brands fa-twitter fa-2xl"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-3">
+                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                      <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div
-            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
-          >
-            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="link-dark" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#twitter" /></svg
-                ></a>
-              </li>
-              <li class="ms-3">
-                <a class="link-dark" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#instagram" /></svg
-                ></a>
-              </li>
-              <li class="ms-3">
-                <a class="link-dark" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#facebook" /></svg
-                ></a>
-              </li>
-            </ul>
           </div>
         </footer>
       </div>

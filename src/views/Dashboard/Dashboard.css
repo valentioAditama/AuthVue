@@ -18,6 +18,14 @@
   color: #268829;
 }
 
+.textGreenNav {
+  color: rgb(0, 218, 0);
+}
+
+.textGreenNav:hover {
+  color: rgb(9, 167, 9);
+}
+
 .btnContact {
   background-color: #2ebe33; /* Green */
   border: none;
@@ -41,4 +49,9 @@
 
 .textBackground {
   height: 70vh;
+}
+
+.iconSizeFooter {
+  height: 60px;
+  width: 60px;
 }
