@@ -2,75 +2,397 @@
   /* border: 1px solid black; */
 }
 
-.navbarColor {
-  background-color: #374e73;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbarColor {
+    background-color: #374e73;
+  }
+
+  .greenColor {
+    background-color: #2ebe33; /* Green */
+  }
+
+  .greenColor:hover {
+    background-color: #268829; /* Green */
+  }
+
+  .textGreen {
+    color: #268829;
+  }
+
+  .textGreenNav {
+    color: rgb(0, 218, 0);
+  }
+
+  .textGreenNav:hover {
+    color: rgb(9, 167, 9);
+  }
+
+  .btnContact {
+    background-color: #2ebe33; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+  }
+
+  .background {
+    background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .textBackground {
+    height: 70vh;
+  }
+
+  .socialMedia {
+    margin: 10px;
+  }
+
+  .contentTelkom {
+    margin-top: 50px;
+  }
+
+  .textImage {
+    font-size: 13px;
+  }
+
+  .contentImage {
+    padding: 20px;
+  }
+
+  .iconSizeFooter {
+    height: 60px;
+    width: 60px;
+  }
+
+  .boxChoose {
+    list-style-type: none;
+  }
+
+  .boxChoose > li {
+    border-left: 3px solid rgb(158, 153, 153);
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .boxChoose > .active {
+    border-left: 3px solid #10d417;
+    padding-left: 10px;
+  }
+
+  li > .active {
+    color: #268829;
+  }
 }
 
-.greenColor {
-  background-color: #2ebe33; /* Green */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .navbarColor {
+    background-color: #374e73;
+  }
+
+  .greenColor {
+    background-color: #2ebe33; /* Green */
+  }
+
+  .greenColor:hover {
+    background-color: #268829; /* Green */
+  }
+
+  .textGreen {
+    color: #268829;
+  }
+
+  .textGreenNav {
+    color: rgb(0, 218, 0);
+  }
+
+  .textGreenNav:hover {
+    color: rgb(9, 167, 9);
+  }
+
+  .btnContact {
+    background-color: #2ebe33; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+  }
+
+  .background {
+    background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position-y: -200px;
+  }
+
+  .textBackground {
+    height: 70vh;
+  }
+
+  .iconSizeFooter {
+    height: 60px;
+    width: 60px;
+  }
+
+  .boxChoose {
+    list-style-type: none;
+  }
+
+  .boxChoose > li {
+    border-left: 3px solid rgb(158, 153, 153);
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .boxChoose > .active {
+    border-left: 3px solid #10d417;
+    padding-left: 10px;
+  }
+
+  li > .active {
+    color: #268829;
+  }
 }
 
-.greenColor:hover {
-  background-color: #268829; /* Green */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbarColor {
+    background-color: #374e73;
+  }
+
+  .greenColor {
+    background-color: #2ebe33; /* Green */
+  }
+
+  .greenColor:hover {
+    background-color: #268829; /* Green */
+  }
+
+  .textGreen {
+    color: #268829;
+  }
+
+  .textGreenNav {
+    color: rgb(0, 218, 0);
+  }
+
+  .textGreenNav:hover {
+    color: rgb(9, 167, 9);
+  }
+
+  .btnContact {
+    background-color: #2ebe33; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+  }
+
+  .background {
+    background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position-y: -200px;
+  }
+
+  .textBackground {
+    height: 70vh;
+  }
+
+  .iconSizeFooter {
+    height: 60px;
+    width: 60px;
+  }
+
+  .boxChoose {
+    list-style-type: none;
+  }
+
+  .boxChoose > li {
+    border-left: 3px solid rgb(158, 153, 153);
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .boxChoose > .active {
+    border-left: 3px solid #10d417;
+    padding-left: 10px;
+  }
+
+  li > .active {
+    color: #268829;
+  }
 }
 
-.textGreen {
-  color: #268829;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbarColor {
+    background-color: #374e73;
+  }
+
+  .greenColor {
+    background-color: #2ebe33; /* Green */
+  }
+
+  .greenColor:hover {
+    background-color: #268829; /* Green */
+  }
+
+  .textGreen {
+    color: #268829;
+  }
+
+  .textGreenNav {
+    color: rgb(0, 218, 0);
+  }
+
+  .textGreenNav:hover {
+    color: rgb(9, 167, 9);
+  }
+
+  .btnContact {
+    background-color: #2ebe33; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+  }
+
+  .background {
+    background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position-y: -200px;
+  }
+
+  .textBackground {
+    height: 70vh;
+  }
+
+  .iconSizeFooter {
+    height: 60px;
+    width: 60px;
+  }
+
+  .boxChoose {
+    list-style-type: none;
+  }
+
+  .boxChoose > li {
+    border-left: 3px solid rgb(158, 153, 153);
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .boxChoose > .active {
+    border-left: 3px solid #10d417;
+    padding-left: 10px;
+  }
+
+  li > .active {
+    color: #268829;
+  }
 }
 
-.textGreenNav {
-  color: rgb(0, 218, 0);
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbarColor {
+    background-color: #374e73;
+  }
 
-.textGreenNav:hover {
-  color: rgb(9, 167, 9);
-}
+  .greenColor {
+    background-color: #2ebe33; /* Green */
+  }
 
-.btnContact {
-  background-color: #2ebe33; /* Green */
-  border: none;
-  border-radius: 20px;
-  color: white;
-  padding: 2px;
-  margin: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 130px;
-  height: 30px;
-}
+  .greenColor:hover {
+    background-color: #268829; /* Green */
+  }
 
-.background {
-  background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
-  background-size: cover;
-  height: 70vh;
-  background-position-y: -200px;
-}
+  .textGreen {
+    color: #268829;
+  }
 
-.textBackground {
-  height: 70vh;
-}
+  .textGreenNav {
+    color: rgb(0, 218, 0);
+  }
 
-.iconSizeFooter {
-  height: 60px;
-  width: 60px;
-}
+  .textGreenNav:hover {
+    color: rgb(9, 167, 9);
+  }
 
-.boxChoose {
-  list-style-type: none;
-}
+  .btnContact {
+    background-color: #2ebe33; /* Green */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+  }
 
-.boxChoose > li {
-  border-left: 3px solid rgb(158, 153, 153);
-  padding-left: 10px;
-  padding-top: 15px;
-}
+  .background {
+    background-image: url("../../assets/startae-team-QEsaXprgVfQ-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position-y: -200px;
+  }
 
-.boxChoose > .active{
-  border-left: 3px solid #10d417;
-  padding-left: 10px;
-}
+  .textBackground {
+    height: 70vh;
+  }
 
-li > .active {
-  color: #268829;
+  .iconSizeFooter {
+    height: 60px;
+    width: 60px;
+  }
+
+  .boxChoose {
+    list-style-type: none;
+  }
+
+  .boxChoose > li {
+    border-left: 3px solid rgb(158, 153, 153);
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .boxChoose > .active {
+    border-left: 3px solid #10d417;
+    padding-left: 10px;
+  }
+
+  li > .active {
+    color: #268829;
+  }
 }

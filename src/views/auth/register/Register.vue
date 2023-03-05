@@ -58,33 +58,36 @@
 </template>
 
 <script>
-  import axios from 'axios';
+import axios from "axios";
 
-  export default {
-    data() {
-      return {
-        email: "", 
-        password: "", 
-        confpassword: ''
-      }
-    },
+export default {
+  data() {
+    return {
+      email: "",
+      password: "",
+      confpassword: "",
+    };
+  },
 
   methods: {
-    async register(){
+    async register() {
       if (this.password !== this.confirmPassword) {
-        alert('Passwords do not Match');
+        alert("Passwords do not Match");
         return;
       }
 
       const payload = {
-        email: this.email, 
+        email: this.email,
         password: this.password,
-        confpassword: this.confirmPassword
+        confpassword: this.confirmPassword,
       };
 
-      const response = await axios.post('http://interview.pluginesia.com/register', payload);
+      const response = await axios.post(
+        "http://interview.pluginesia.com/register",
+        payload
+      );
       console.log(response.data);
-    }
-  }
-}
+    },
+  },
+};
 </script>

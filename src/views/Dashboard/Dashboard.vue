@@ -40,7 +40,9 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbarColor mt-1">
+    <nav
+      class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm bg-body-tertiary navbarColor mt-1 subNavbar"
+    >
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -163,10 +165,10 @@
       <div
         class="row d-flex justify-content-center align-items-center textBackground"
       >
-        <div class="col-md-9 text-light">
+        <div class="col-md-9 text-light contentImage">
           <h1>FLOU Cloud Product</h1>
           <div class="mt-3">
-            <h5>
+            <h5 class="textImage">
               Explore FLOU Cloud's expanding range of high-performance cloud
               products <br />
               including large-scale computing, storage resources, and Big Data
@@ -194,12 +196,34 @@
           </div>
           <div class="mt-4">
             <div class="boxChoose">
-              <li class="active"><a href="" class="text-decoration-none text-success">Infrastructure as a Service</a></li>
-              <li><a href="" class="text-decoration-none text-dark">Software as a Service</a></li>
-              <li><a href="" class="text-decoration-none text-dark">Platform as a Service</a></li>
-              <li><a href="" class="text-decoration-none text-dark">Hybrid Multicloud</a></li>
-              <li><a href="" class="text-decoration-none text-dark">Services</a></li>
-              <li><a href="" class="text-decoration-none text-dark">Private Cloud</a></li>
+              <li class="active">
+                <a href="" class="text-decoration-none text-success"
+                  >Infrastructure as a Service</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-decoration-none text-dark"
+                  >Software as a Service</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-decoration-none text-dark"
+                  >Platform as a Service</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-decoration-none text-dark"
+                  >Hybrid Multicloud</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-decoration-none text-dark">Services</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none text-dark"
+                  >Private Cloud</a
+                >
+              </li>
             </div>
           </div>
         </div>
@@ -230,7 +254,7 @@
               </a>
               <small>
                 Helping to accelerate the business through strong and resilient
-                infrastructure for unlimited customer <br>experience.
+                infrastructure for unlimited customer <br />experience.
               </small>
             </div>
             <div class="row mt-5 justify-content-between">
@@ -305,7 +329,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 contentTelkom">
                 <div
                   class="row d-flex justify-content-center align-items-center"
                 >
@@ -572,22 +596,30 @@
                 <h5>Our Social Media</h5>
                 <div class="row mt-3">
                   <div class="col-md-3">
-                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                    <button
+                      class="btn btn-light rounded-circle iconSizeFooter socialMedia"
+                    >
                       <i class="fa-brands fa-instagram fa-2xl"></i>
                     </button>
                   </div>
                   <div class="col-md-3">
-                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                    <button
+                      class="btn btn-light rounded-circle iconSizeFooter socialMedia"
+                    >
                       <i class="fa-brands fa-facebook fa-2xl"></i>
                     </button>
                   </div>
                   <div class="col-md-3">
-                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                    <button
+                      class="btn btn-light rounded-circle iconSizeFooter socialMedia"
+                    >
                       <i class="fa-brands fa-twitter fa-2xl"></i>
                     </button>
                   </div>
                   <div class="col-md-3">
-                    <button class="btn btn-light rounded-circle iconSizeFooter">
+                    <button
+                      class="btn btn-light rounded-circle iconSizeFooter socialMedia"
+                    >
                       <i class="fa-brands fa-linkedin fa-2xl"></i>
                     </button>
                   </div>

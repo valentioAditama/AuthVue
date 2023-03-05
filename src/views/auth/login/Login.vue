@@ -50,27 +50,26 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <script>
-  import axios from 'axios';
-  
-  export default {
-    data() {
-      return {
-        email: "", 
-        password: "", 
-      }
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      email: "",
+      password: "",
+    };
+  },
+
+  methods: {
+    async login() {
+      const payload = {
+        email: this.email,
+        password: this.password,
+      };
+
+      const response = await axios.post("/register", payload);
+      alert(response.data);
     },
-
-    methods: {
-      async login(){
-
-        const payload = {
-          email: this.email, 
-          password: this.password,
-        };
-
-        const response = await axios.post('/register', payload);
-        alert(response.data);
-      }
-    }
-  }
+  },
+};
 </script>
