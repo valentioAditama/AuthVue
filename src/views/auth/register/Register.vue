@@ -9,7 +9,7 @@
         <img src="../../../assets/register.gif" class="img-fluid" alt="image" />
       </div>
       <div class="col-md-6">
-        <form>
+        <form @submit.prevent="register">
           <div class="mb-3">
             <h3>Register</h3>
             <h6 class="subTitle">Create your first account</h6>
@@ -18,25 +18,31 @@
             <input
               type="email"
               class="form-control"
-              id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Email"
+              name="email"
+              v-model="email"
+              required
             />
           </div>
           <div class="mb-3">
             <input
               type="password"
               class="form-control"
-              id="exampleInputPassword1"
               placeholder="Password"
+              name="password"
+              v-model="password"
+              required
             />
           </div>
           <div class="mb-3">
             <input
               type="password"
               class="form-control"
-              id="exampleInputPassword1"
               placeholder="Confirm Password"
+              name="confirmPassword"
+              v-model="confirmPassword"
+              required
             />
           </div>
           <div class="mb-3">
@@ -50,3 +56,35 @@
     </div>
   </div>
 </template>
+
+<script>
+  import axios from 'axios';
+
+  export default {
+    data() {
+      return {
+        email: "", 
+        password: "", 
+        confpassword: ''
+      }
+    },
+
+  methods: {
+    async register(){
+      if (this.password !== this.confirmPassword) {
+        alert('Passwords do not Match');
+        return;
+      }
+
+      const payload = {
+        email: this.email, 
+        password: this.password,
+        confpassword: this.confirmPassword
+      };
+
+      const response = await axios.post('http://interview.pluginesia.com/register', payload);
+      console.log(response.data);
+    }
+  }
+}
+</script>

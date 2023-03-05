@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from "vue-router";
         <img src="../../../assets/login.gif" class="img-fluid" alt="image" />
       </div>
       <div class="col-md-6">
-        <form>
+        <form @submit="login">
           <div class="mb-3">
             <h3>Welcome</h3>
             <h6 class="subTitle">Login first before entering</h6>
@@ -25,6 +25,8 @@ import { RouterLink, RouterView } from "vue-router";
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Email"
+              v-model="email"
+              required
             />
           </div>
           <div class="mb-3">
@@ -33,6 +35,8 @@ import { RouterLink, RouterView } from "vue-router";
               class="form-control"
               id="exampleInputPassword1"
               placeholder="Password"
+              v-model="password"
+              required
             />
           </div>
           <div class="mb-3">
@@ -44,3 +48,29 @@ import { RouterLink, RouterView } from "vue-router";
     </div>
   </div>
 </template>
+
+<script>
+  import axios from 'axios';
+  
+  export default {
+    data() {
+      return {
+        email: "", 
+        password: "", 
+      }
+    },
+
+    methods: {
+      async login(){
+
+        const payload = {
+          email: this.email, 
+          password: this.password,
+        };
+
+        const response = await axios.post('/register', payload);
+        alert(response.data);
+      }
+    }
+  }
+</script>
